@@ -48,7 +48,7 @@ const Home = ( { output,setOutput,authenticated }  ) => {
           <div id='search'>
             <input type="text" name="search" placeholder='Search' value={input} onChange={handleChange} />
             { submitLoading ? <SpinnerTwo /> : <button className='submit'>Submit</button>}
-          </div>
+          </div>›
           <Row>
             {loading ? <Spinner /> : <button id="randomBtn" className='btn w-100 mb-4' onClick={submitRandom}>Random word</button>}
           </Row>
